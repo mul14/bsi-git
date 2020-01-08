@@ -4,12 +4,14 @@ Pada dasarnya perintah `git pull` dan `git fetch` sama-sama mengambil commit ter
 
 ## `git pull`
 ![git pull][0]
+#### src: petanikode.com
 - Digunakan ketika kita belum melakukan apa-apa terhadap sebuah _local repository_, atau belum melakukan `commit`, atau baru menambah file dan belum mengubah suatu isi file. 
 - Hal ini dapat membahayakan karena rawan terjadi conflict. _Conflict_ terjadi karena setelah mangambil data dari _remote repository_, akan langsung dilakukan `merge` di branch master.
 - `git pull` lebih cocok dilakukan ketika kita selesai men-setup _version control_ baru (melakukan `git init`) di local repository tanpa menggunakan `git clone`.
 
 ## `git fetch`
 ![git fetch][1]
+#### src: petanikode.com
 - Menggunakan `git fetch` kita akan mengambil _commit_ terakhir dari _remote repository_ dan menyimpannya di _local repository_ pada _branch_ `origin/master`, bukan `master`.
 - Perintah `git merge` harus kita lakukan secara manual ketika sudah yakin akan perubahan yang kita lakukan di _branch_ master. 
 

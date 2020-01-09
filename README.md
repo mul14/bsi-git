@@ -1,28 +1,54 @@
-# **VERSION CONTROL**
-
-
-![vcs scheme](https://blog.cpanel.com/wp-content/uploads/2018/05/image2018-2-8_17-46-1.png)
+# GRAPHICAL TOOL FOR GIT
 
 ## Pengertian
 
-Version control adalah sebuah sistem yang mencatat setiap perubahan terhadap sebuah berkas atau kumpulan berkas sehingga pada suatu saat kita dapat kembali kepada salah satu versi dari berkas tersebut. kemampuan tersebut dapat mendukung kolaborasi antar anggota di dalam tim ketika mengerjakan suatu project.
+Graphical Tool untuk git adalah sebuah GUI (Graphical User Interface) yang dapat membantu user dalam melakukan aktifitasnya di dalam git menggunakan interface yang lebih mudah dipahami.
 
-## Jenis Version Control
+## Contoh Graphical Tool
 
-1. Local Version Control
+### Linux
+
+   1. QGit <br/>
+        *hassle-free Git GUI for Linux and it doesn’t cost a dime.*
+   2. Gitg <br/>
+        *you can view your repositories and it allows you to do common Git operations.*
+   3. GitForce <br/>
+        *beginners in Git can make use of this tool as it has an intuitive interface and it’s free to download.*
    
-![local](https://git-scm.com/book/en/v2/images/local.png)
+
+### Windows
+
+   1. Sourcetree <br/>
+        *great for newcomers and experts in Git. A powerful tool, yet free and simple.*
+   2. GitHub <br/>
+        *a Git GUI where you can work on your project, visualize and track the workflow of your GitHub repositories.*
+   3. Tortoise Git <br/>
+        *an open source and free Git GUI for Windows, straightforward to use and can be used with other development tools.*
    
-   developer melakukan backup file-file kerjanya secara manual ke suatu tempat yang telah disediakan. Jadi developer menentukan sendiri tempat backup untuk seluruh file-file kerja, menentukan skema penyimpanan file-file tersebut, menentukan mekanisme pelacakan versi untuk setiap file. dan semua hal tersebut dilakukan di dalam komputer lokal tanpa terhubung ke komputer lainnya.
 
-2. Centralized Version Control
+### Mac
 
-![centralized](https://git-scm.com/book/en/v2/images/centralized.png)
-
-   System ini menggunakan sebuah tempat penyimpanan utama (biasa sebut dengan repository) dan hanya satu buah di server pusat. Karena itulah makanya disebut sebagai centralized VCS. Jenis ini biasanya juga disebut dengan client server model. kita menarik file yang kita butuhkan, tetapi kita tidak pernah memiliki salinan lengkap proyek di komputer lokal. Beberapa contoh version control yang menerapkan adalah Subversion (SVN) dan Perforce.
-
-3. Distributed Version Control
+1. GitUp <br/>
+   *a safe environment to learn Git and experiment with. It’s also free, fast and easy to use.*   
+2. GitBox <br/>
+   *free for non-profit use and makes working with Git as easy as checking the mail.*
+3. GitX-dev <br/>
+   *designed to be a top and maintainable Git GUI. It’s free and full-featured for most workflows.*
    
-   ![distributed](https://git-scm.com/book/en/v2/images/distributed.png)
+### Cross-Platform
 
-   Dengan sistem kontrol versi terdistribusi (DVCS), kita tidak bergantung pada server pusat untuk menyimpan semua versi file proyek. Sebagai gantinya, kita mengkloning repositori secara lokal sehingga kita memiliki sejarah (history) lengkap proyek. Dua sistem kontrol versi terdistribusi yang umum adalah Git dan Mercurial.
+1. GitKRaken <br/>
+   *has a free version, reliable, makes Git understandable, and visually appealing.*
+2. SmartGit
+   *the interface is smart looking indeed and easy to use, free to download for non-commercial use.*
+3. Git Cola <br/>
+   *a free, simple yet powerful Git client that makes work-flows quick and efficient.*
+4. Aurees <br/>
+   *an easy to use free Git GUI client that enables users to work on Git operations effortlessly.*
+
+## Contoh Tampilan
+
+Salah satu contoh tampilan graphical tools untuk git pada windows, yaitu GitHub for windows
+
+![Github](https://windows-cdn.softpedia.com/screenshots/GitHub_13.png)
+   
